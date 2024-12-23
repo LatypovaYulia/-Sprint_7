@@ -1,4 +1,5 @@
-package ru.practicum.yandex;
+package model;
+
 
 public class CourierData {
 
@@ -10,6 +11,11 @@ public class CourierData {
         this.login = login;
         this.password = password;
         this.firstName = firstName;
+    }
+
+    public CourierData (String login, String password) {
+        this.login = login;
+        this.password = password;
     }
 
     public CourierData() {
